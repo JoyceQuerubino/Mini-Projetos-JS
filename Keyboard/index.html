@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body class="">
 
         <main class="principal">
             <h1>KEYBOARD</h1>
@@ -22,21 +22,30 @@
             <section>
                 <h2>Clique em uma das seguintes teclas do seu teclado e veja a troca de cores!</h2>
                 <div class="cards">
-                    <div class="card amarelo">
+                    <div class="card">
                         <h2>A</h2>
                     </div>
-                    <div class="card laranja">
+                    <div class="card">
                         <h2>L</h2>
                     </div>
-                    <div class="card verde">
+                    <div class="card">
                         <h2>V</h2>
                     </div>
-                    <div class="card roxo">
+                    <div class="card">
                         <h2>R</h2>
                     </div>
                 </div>
             </section>
 
+            <section>
+                function handleKeyboard(event) {
+                    if (event.key === &quot;a&quot;) document.body.classList.toggle(&quot;amarelo&quot;);
+                  }
+                  
+                  window.addEventListener(&quot;keydown&quot;, handleKeyboard);
+            </section>
+
+        
         </main>
 
 
