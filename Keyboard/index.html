@@ -19,10 +19,22 @@
                 <h2> O que é a Keyboard?</h2>
                 <p class="paragrafo">Os eventos do keyboard servem para verificar quando uma tecla é pressionada, desta forma é possível adicionar determinadas ações pelo teclado. </p>
                 <h2>Como usar?</h2>
+
+                <section class="codigo">
+                    <pre><code>
+                    function handleKeyboard(event) {
+                        if (event.key === "a") document.body.style.background = "#e8e15d";
+                        else document.body.style.background = " #6abae2";
+                    }
+                          
+                    window.addEventListener("keydown", handleKeyboard);
+                    </code></pre>
+                </section>
+
             </section>
 
             <section>
-                <h2>Pressione as seguintes teclas do seu teclado e veja a mágica acontecer!</h2>
+                <h2>Pressione uma tecla e veja as alterações:</h2>
                 <div class="cards">
                     <div class="card">
                         <h2>A</h2>

@@ -34,7 +34,7 @@ body {
   margin-bottom: 10px;
 }
 .texto h2 {
-  font-size: 2.18rem;
+  font-size: 30px;
   padding-bottom: 5px;
 }
 .texto p {
@@ -42,6 +42,12 @@ body {
   padding-right: 80px;
   padding-left: 20px;
   padding-bottom: 15px;
+}
+
+.codigo {
+  background: #e0e0e0;
+  border-radius: 10px;
+  font-size: 15px;
 }
 
 .cards {
