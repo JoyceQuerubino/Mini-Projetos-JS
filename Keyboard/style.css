@@ -9,11 +9,14 @@ p {
 body {
   background: #6abae2;
   height: 100vh;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   color: #3a3a3a;
   font-family: "Poppins", sans-serif;
+  padding: 0 30px;
 }
 
 .principal {
@@ -31,28 +34,48 @@ body {
   font-size: 3.125rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+
+  background: red;
 }
 .texto h2 {
-  font-size: 30px;
+  font-size: 25px;
   padding-bottom: 5px;
+
+  background: blue;
 }
 .texto p {
-  font-size: 20px;
-  padding-right: 80px;
+  font-size: 16px;
   padding-left: 20px;
-  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+
+  background: orange;
 }
 
 .codigo {
-  background: #e0e0e0;
+  background: #eaeaea;
   border-radius: 10px;
   font-size: 15px;
+  padding: 0 10px;
+}
+
+.codigo pe {
+  position: relative;
+}
+
+.blocos h2 {
+  margin-bottom: 15px;
+
+  background: green;
 }
 
 .cards {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+
+  background: black;
 }
 
 .card {
@@ -63,4 +86,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 845px) {
+  body {
+    padding: 0;
+  }
+  .principal {
+    width: 80%;
+  }
+}
+@media (max-width: 741px) {
+  body {
+    padding: 0;
+  }
+  .principal {
+    width: 80%;
+  }
 }
