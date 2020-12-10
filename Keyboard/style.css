@@ -35,22 +35,16 @@ body {
   font-weight: 700;
   text-align: center;
   margin-bottom: 5px;
-
-  background: red;
 }
 .texto h2 {
   font-size: 25px;
   padding-bottom: 5px;
-
-  background: blue;
 }
 .texto p {
   font-size: 16px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
-
-  background: orange;
 }
 
 .codigo {
@@ -60,22 +54,14 @@ body {
   padding: 0 10px;
 }
 
-.codigo pe {
-  position: relative;
-}
-
 .blocos h2 {
   margin-bottom: 15px;
-
-  background: green;
 }
 
 .cards {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
-  background: black;
 }
 
 .card {
@@ -95,6 +81,7 @@ body {
   }
   .principal {
     width: 80%;
+    height: 80%;
   }
 }
 @media (max-width: 741px) {
@@ -103,5 +90,6 @@ body {
   }
   .principal {
     width: 80%;
+    height: 85%;
   }
 }
