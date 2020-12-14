@@ -3,7 +3,9 @@ Através do curso de **JavaScript do básico ao avançado** da Origamid, estou a
 ## 1 - KEYBOARD
 
 Os eventos do keyboard servem para verificar quando uma tecla é pressionada, desta forma é possível adicionar determinadas ações pelo teclado.
-**OBS.:** Esse modelo só é responsivo até 740px, já que o mesmo deve ser testado utilizando o teclado.
+
+OBS.: O modelo deste projeto é apenas para web, responsivo até 740px, já que para testar é necessário utilizar o teclado.
+
 link:
 
 <h1 align="center">
