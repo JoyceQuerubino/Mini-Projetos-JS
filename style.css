@@ -3,6 +3,36 @@
   padding: 0;
 }
 
+body,
+html {
+  height: 100%;
+}
+
 body {
   background: #212121;
+  padding: 1rem;
+}
+
+.titulo {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background: blue;
+  gap: 1rem;
+  padding: 1rem calc((100vw - 800px) / 2);
+  /*O padding na vertical é fixo e dinâmico na horizontal, calculando a diferente entre a tela de 
+  100vw e a área do container de 600px, e depois dividindo o resultado por dois para igualar os espaçamentos nos dois lados
+  Além disso, declaramos os itens com largura e altura*/
+}
+
+.flex-item {
+  width: 150px;
+  height: 150px;
+  background: yellow;
 }
